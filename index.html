@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            @media only screen and (max-width: 768px) {
+                /* For mobile phones: */
+                [class*="col-"] {
+                    width: 100%;
+                }
+            }
+        </style>
+        <title>Personal Portfolio Webpage</title>
+    </head>
+    <body>
+        <nav id="navbar">
+            <ul class="nav-list">
+                <li><a href="#welcome-section">Home</a></li>
+                <li><a href="#projects">My Projects</a></li>
+                <li><a href="#profile-link">Contacts</a></li>
+            </ul>    
+        </nav>
+        <section id="welcome-section">
+            <h1>Welcome, I am Teslim</h1>
+            <h3>a web developer</h3>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <h2 class="project-tile">These are my projects</h2>
+            <div class="projects-done">
+                <a href="https://codepen.io/slimbellz/pen/dyGMNLW" target="_blank">Tribute Page</a>
+                <a href="https://codepen.io/slimbellz/pen/vYLGgVJ" target="_blank">Survey Page</a>
+                <a href="https://codepen.io/slimbellz/pen/BajKWNG" target="_blank">Product Landing Page</a>
+                <a href="https://codepen.io/slimbellz/pen/rNxeZrj" target="_blank">Documentation Page</a>
+            </div>
+        </section>
+
+        <section id="contacts" class="contact-section">
+            <div class="contact-section-header">
+                <h2>Creating is my hobby</h2>
+                <p>What do you need...</p>
+            </div>
+            <div class="contact-links">
+                <a id="profile-link" href="https://github.com/slimbellz" target="_blank" class="btn contact-details">Github</a>
+                <a id="email" href="mailto:slimbellz@gmail.com" target="_blank" class="btn contact-details">@send an email</a>
+                <a id="number" href="#" target="_blank" class="btn contact-details">Call me (+234 909 9999 601)</a>
+                <a id="twitter" href="https://twitter.com/reviveme007?s=03" target="_blank" class="btn contact-details">twitter</a>
+            </div>
+        </section>
+
+        <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </body>
+</html>
